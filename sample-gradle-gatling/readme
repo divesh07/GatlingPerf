@@ -1,0 +1,2 @@
+# To  build the gradle project using command : ./gradlew gatlingRun
+To run simulation : ./gradlew gatlingRun-SampleSimulation
