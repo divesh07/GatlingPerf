@@ -1,2 +1,9 @@
-# To  build the gradle project using command : ./gradlew gatlingRun
-To run simulation : ./gradlew gatlingRun-SampleSimulation
+build the gradle project using command : 
+	./gradlew gatlingRun
+
+run simulation : 
+	./gradlew gatlingRun-SampleSimulation
+	./gradlew gatlingRun-Login
+	./gradlew gatlingRun-Login1
+
+plugin and documentation : https://github.com/lkishalmi/gradle-gatling-plugin

@@ -5,3 +5,9 @@ plugins {
 repositories {
   jcenter()
 }
+
+sourceSets {
+  gatling {
+    scala.srcDirs = ["src/gatling/simulations", "src/gatling/simulations/services"]
+  }
+}

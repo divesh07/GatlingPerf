@@ -1,7 +1,11 @@
+package services
+
+import scala.concurrent.duration._
+
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
-class Login extends Simulation{
+class Login1 extends Simulation{
   //Protocol definition
   val httpProtocol = http.baseUrl("http://local:8088")
 
